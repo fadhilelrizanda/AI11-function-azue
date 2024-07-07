@@ -10,7 +10,7 @@ app = func.FunctionApp()
 
 API_OPENAI = os.getenv('OpenAI_client')
 openAI_key = os.getenv('OpenAI_KEY')
-OpenAI_client = OpenAI(base_url=API_OPENAI, api_key="YmcuM93yf2t2T9zmfByr3YihJeM3uhRh")
+OpenAI_client = OpenAI(base_url=API_OPENAI, api_key=openAI_key)
 subscription_key = os.getenv('subscription_key')
 account_id = os.getenv('account_id')
 location = os.getenv('location')
